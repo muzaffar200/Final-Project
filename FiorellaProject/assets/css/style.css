@@ -1023,4 +1023,281 @@ main #productList .products .product .productPrice .price {
   position: relative;
   right: 35px;
 }
+
+#video {
+  background-color: #f7f7f7;
+}
+
+#video .video-article {
+  padding: 10% 0px;
+}
+
+#video .video-article .videoImg {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#video .video-article .videoImg .icon {
+  position: absolute;
+  z-index: 10;
+}
+
+#video .video-article .videoImg .icon i {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 85px;
+}
+
+#video .video-article .videoImg img {
+  width: 650px;
+  height: 420px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#video .video-article .videoImg img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#video .video-article .article .title {
+  margin-top: 20px;
+}
+
+#video .video-article .article .title h5 {
+  line-height: 120%;
+  font-size: 35px;
+}
+
+#video .video-article .article .title h5 span {
+  color: red;
+}
+
+#video .video-article .article .desc {
+  margin-top: 15px;
+}
+
+#video .video-article .article .list ul {
+  margin-top: 15px;
+  list-style: none;
+  font-size: 20px;
+}
+
+#video .video-article .article .list ul li {
+  margin-top: 8px;
+}
+
+#flowerExpert .info-experts .info {
+  margin-top: 10%;
+}
+
+#flowerExpert .info-experts .info .title {
+  text-align: center;
+}
+
+#flowerExpert .info-experts .info .title h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 38px;
+}
+
+#flowerExpert .info-experts .info .desc {
+  text-align: center;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+#flowerExpert .info-experts .experts {
+  padding-bottom: 10%;
+}
+
+#flowerExpert .info-experts .experts .expert {
+  margin-top: 6%;
+  text-align: center;
+}
+
+#flowerExpert .info-experts .experts .expert .expName {
+  font-size: 14px;
+  margin-top: 8%;
+}
+
+#flowerExpert .info-experts .experts .expert .expProfession {
+  font-size: 12px;
+  margin-top: 3%;
+  color: grey;
+}
+
+#myParallax .parallax-window {
+  min-height: 500px;
+  background: transparent;
+}
+
+#myParallax .parallax-window .parallaxText {
+  position: relative;
+  top: 35%;
+}
+
+#myParallax .parallax-window .parallaxText h2 {
+  color: white;
+}
+
+#myParallax .parallax-window .registration button {
+  height: 60px;
+  width: 32%;
+  padding: 0;
+  background-color: #f64b3a;
+  color: #fce3ff;
+  font-size: 13px;
+  border: solid 1px #f64b3a;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 4%;
+}
+
+#myParallax .parallax-window .registration button:hover {
+  background-color: #fe3e2b;
+  border: solid 1px #fe3e2b;
+}
+
+#myParallax .parallax-window .registration input {
+  width: 466px;
+  height: 60px;
+  padding: 0;
+  font-size: 12px;
+  padding-left: 3%;
+  margin-top: 4%;
+}
+
+#blog {
+  background-color: #f8f8f8;
+}
+
+#blog .blogArticle {
+  padding-top: 8%;
+}
+
+#blog .blogArticle .blogDesc {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  color: grey;
+}
+
+#blog .blogImages .blogImage .image {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#blog .blogImages .blogImage .image .date {
+  width: 98px;
+  height: 32px;
+  background-color: white;
+  position: absolute;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 9px;
+}
+
+#blog .blogImages .blogImage .image .date span {
+  color: black;
+  font-size: 11px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#blog .blogImages .blogImage .image .date span:hover {
+  color: red;
+}
+
+#blog .blogImages .blogImage .image img {
+  height: 266px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#blog .blogImages .blogImage .image img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+#blog .blogImages .blogImage .imageName {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  cursor: pointer;
+}
+
+#blog .blogImages .blogImage .imageDesc {
+  text-align: center;
+  color: grey;
+  padding-bottom: 20%;
+}
+
+#slider .owl-carousel .item .sliderInfosImage {
+  padding-top: 6%;
+  padding-bottom: 7%;
+}
+
+#slider .owl-carousel .item .sliderInfosImage .innerSliderInfosImage .sliderImage img {
+  padding-bottom: 15px;
+}
+
+footer .footer {
+  background-color: #fefaf3;
+}
+
+footer .footer .topFooter ul {
+  padding-top: 6%;
+  padding-bottom: 4%;
+  list-style: none;
+}
+
+footer .footer .topFooter ul h5 {
+  margin-bottom: 19px;
+  font-size: 13px;
+}
+
+footer .footer .topFooter ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 11px;
+}
+
+footer .footer .bottomFooter {
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+footer .footer .bottomFooter .rights {
+  font-size: 12px;
+  color: grey;
+}
+
+footer .footer .bottomFooter .socialMedia span {
+  margin-right: 15px;
+}
+
+footer .footer .bottomFooter .socialMedia span a {
+  text-decoration: none;
+  color: grey;
+  font-size: 11px;
+}
 /*# sourceMappingURL=style.css.map */

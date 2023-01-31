@@ -1007,3 +1007,312 @@ li {
         }
     }
     
+
+    #video {
+        background-color: rgb(247, 247, 247);
+    
+        .video-article {
+            padding: 10% 0px;
+    
+            .videoImg {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                cursor: pointer;
+    
+                .icon {
+                    position: absolute;
+                    z-index: 10;
+    
+                    i {
+                        color: white;
+                        background-color: red;
+                        border-radius: 50%;
+                        font-size: 85px;
+    
+                    }
+                }
+    
+    
+    
+                img {
+                    width: 650px;
+                    height: 420px;
+                    transition: 0.3s;
+    
+                    &:hover {
+                        transform: scale(1.05);
+    
+                    }
+                }
+            }
+    
+            .article {
+                .title {
+                    margin-top: 20px;
+    
+                    h5 {
+                        line-height: 120%;
+                        font-size: 35px;
+    
+                        span {
+                            color: red;
+                        }
+                    }
+    
+                }
+    
+                .desc {
+                    margin-top: 15px;
+                }
+    
+                .list {
+                    ul {
+                        margin-top: 15px;
+                        list-style: none;
+                        font-size: 20px;
+    
+                        li {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #flowerExpert {
+        .info-experts {
+            .info {
+                margin-top: 10%;
+    
+                .title {
+                    text-align: center;
+    
+                    h2 {
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 38px;
+                    }
+    
+    
+                }
+    
+                .desc {
+                    text-align: center;
+                    color: grey;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 18px;
+                }
+            }
+    
+            .experts {
+                padding-bottom: 10%;
+    
+                .expert {
+                    margin-top: 6%;
+                    text-align: center;
+    
+                    .expName {
+                        font-size: 14px;
+                        margin-top: 8%;
+    
+                    }
+    
+                    .expProfession {
+                        font-size: 12px;
+                        margin-top: 3%;
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+    
+    #myParallax {
+        .parallax-window {
+            min-height: 500px;
+            background: transparent;
+    
+            .parallaxText {
+                position: relative;
+                top: 35%;
+    
+                h2 {
+                    color: white;
+                }
+            }
+    
+            .registration {
+                button {
+                    height: 60px;
+                    width: 32%;
+                    padding: 0;
+                    background-color: rgb(246, 75, 58);
+                    color: rgb(252, 227, 255);
+                    font-size: 13px;
+                    border: solid 1px rgb(246, 75, 58);
+                    transition: 0.3s;
+                    margin-top: 4%;
+    
+                    &:hover {
+                        background-color: rgb(254, 62, 43);
+                        border: solid 1px rgb(254, 62, 43);
+                    }
+                }
+    
+                input {
+                    width: 466px;
+                    height: 60px;
+                    padding: 0;
+                    font-size: 12px;
+                    padding-left: 3%;
+                    margin-top: 4%;
+                }
+            }
+        }
+    }
+    
+    #blog {
+        background-color: rgb(248, 248, 248);
+    
+        .blogArticle {
+            padding-top: 8%;
+    
+            .blogDesc {
+                padding-top: 1%;
+                padding-bottom: 2%;
+                color: grey;
+            }
+        }
+    
+        .blogImages {
+            .blogImage {
+                .image {
+                    overflow: hidden;
+                    cursor: pointer;
+    
+                    .date {
+                        width: 98px;
+                        height: 32px;
+                        background-color: white;
+                        position: absolute;
+                        z-index: 5;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 9px;
+    
+    
+                        span {
+                            color: black;
+                            font-size: 11px;
+                            transition: 0.2s;
+    
+                            &:hover {
+                                color: red;
+                            }
+                        }
+                    }
+    
+                    img {
+                        // width: 100%;
+                        height: 266px;
+                        transition: 0.4s;
+    
+                        &:hover {
+                            transform: scale(1.03)
+                        }
+    
+    
+                    }
+                }
+    
+                .imageName {
+                    text-align: center;
+                    margin-top: 5%;
+                    margin-bottom: 4%;
+                    cursor: pointer;
+                }
+    
+                .imageDesc {
+                    text-align: center;
+                    color: grey;
+                    padding-bottom: 20%;
+                }
+            }
+        }
+    }
+    
+    
+    #slider {
+        .owl-carousel {
+            .item {
+                .sliderInfosImage {
+                    padding-top: 6%;
+                    padding-bottom: 7%;
+    
+                    .innerSliderInfosImage {
+                        .sliderImage {
+                            img {
+                                padding-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /////Home/////
+
+    footer {
+        .footer {
+            background-color: rgb(254, 250, 243);
+    
+            .topFooter {
+                ul {
+                    padding-top: 6%;
+                    padding-bottom: 4%;
+                    list-style: none;
+    
+                    h5 {
+                        margin-bottom: 19px;
+                        font-size: 13px;
+                    }
+    
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: grey;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+    
+            .bottomFooter {
+                margin-top: 10px;
+                padding-bottom: 15px;
+    
+                .rights {
+                    font-size: 12px;
+                    color: grey;
+                }
+    
+                .socialMedia {
+                    span {
+                        margin-right: 15px;
+    
+                        a {
+                            text-decoration: none;
+                            color: grey;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    

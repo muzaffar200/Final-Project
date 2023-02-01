@@ -1330,12 +1330,16 @@ footer .footer .bottomFooter .socialMedia span a {
   margin-right: 50px;
 }
 
-.upSubtotal {
-  text-align: center;
-}
-
-.miniPirice {
-  text-align: center;
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #b0afae;
 }
 
 .middle .foto {
@@ -1353,6 +1357,33 @@ footer .footer .bottomFooter .socialMedia span a {
       -ms-flex-pack: left;
           justify-content: left;
   text-align: left;
+}
+
+.middle .img .icon {
+  margin-right: 40px;
+}
+
+.middle .img .name1 {
+  margin-left: 30px;
+  font-size: 12px;
+  color: #b0afae;
+}
+
+.price2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.price2 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price2 .box input {
+  border: none;
 }
 
 #shopproductNameLis {

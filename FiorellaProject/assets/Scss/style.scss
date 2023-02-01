@@ -1354,17 +1354,17 @@ footer {
     }
 }
 
-.upSubtotal {
-    text-align: center;
 
-    span {}
-}
 
 .miniPirice {
-    text-align: center;
+   
 }
 
-.middle {
+.middle {display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #b0afae;
     .foto {
         height: 114.66px;
     }
@@ -1374,8 +1374,26 @@ footer {
         display: flex;
         justify-content: left;
         text-align: left;
+        .icon{
+            
+            margin-right: 40px;
+        }
+        .name1{
+            margin-left: 30px;
+            font-size: 12px;
+            color:  #b0afae;
+        }
     }
 
+}
+.price2{display: flex;
+    text-align: center;
+
+    .box{display: flex;
+        input{
+            border: none;
+        }
+    }
 }
 
 ///Cart///

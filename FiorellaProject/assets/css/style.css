@@ -1300,4 +1300,738 @@ footer .footer .bottomFooter .socialMedia span a {
   color: grey;
   font-size: 11px;
 }
+
+.cart1 {
+  height: 225px;
+  background-color: #fafaf9;
+}
+
+.cart1 .cartText {
+  padding-top: 66px;
+}
+
+.up {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e9e9e9;
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.up .upProduct {
+  text-align: center;
+}
+
+.upPrice span {
+  margin-right: 50px;
+}
+
+.upSubtotal {
+  text-align: center;
+}
+
+.miniPirice {
+  text-align: center;
+}
+
+.middle .foto {
+  height: 114.66px;
+}
+
+.middle .img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: left;
+}
+
+#shopproductNameLis {
+  background-color: #fafaf9;
+}
+
+#shopproductNameLis h1 {
+  padding-top: 4%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px;
+}
+
+#shopproductNameLis p {
+  font-size: 17px;
+  color: grey;
+  padding-bottom: 4%;
+}
+
+#shopOrangeAmaryllis {
+  padding-bottom: 8%;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisImages .smallImages {
+  margin-top: 4%;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisImages .smallImages .image {
+  margin-top: 20px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisImages .smallImages .image img {
+  width: 118px;
+  height: 145px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisImages .bigImage {
+  margin-top: 7.1%;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisImages .bigImage img {
+  margin-left: 6%;
+  width: 498px;
+  height: 642px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo {
+  position: relative;
+  left: 5%;
+  top: 45px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .title h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .title p {
+  font-size: 14px;
+  color: grey;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .desc {
+  color: grey;
+  font-size: 15px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton button {
+  width: 181px;
+  height: 51px;
+  background-color: black;
+  color: white;
+  border: black 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton button:hover {
+  opacity: 0.86;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton .quantity {
+  width: 261px;
+  height: 51px;
+  border: solid 1px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton .quantity span {
+  color: grey;
+  font-size: 13px;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton .quantity .icon-number span {
+  width: 23px;
+  border-collapse: collapse;
+  border: 1px solid white;
+  font-size: 15px;
+  text-align: center;
+}
+
+#shopOrangeAmaryllis .shopAmeryllisInfo .quantityButton .quantity .icon-number i {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#shopDesc-info-review .shopTitle .shopDescription {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border: 1px solid #dad7d7;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+#shopDesc-info-review .shopTitle .shopInfo {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border: 1px solid #dad7d7;
+  border-left: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+#shopDesc-info-review .shopTitle .shopReview {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border: 1px solid #dad7d7;
+  border-left: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+#shopDesc-info-review .shopDesc {
+  border-top: 1px solid #dad7d7;
+  border-bottom: 1px solid #dad7d7;
+  margin-bottom: 3%;
+}
+
+#shopDesc-info-review .shopDesc .descCart {
+  margin-top: 2%;
+  padding: 3% 0;
+}
+
+#shopDesc-info-review .shopDesc .descCart .innerDesc {
+  margin-top: 2%;
+  font-size: 13px;
+  color: grey;
+}
+
+#shopDesc-info-review .shopInfo {
+  border-bottom: 1px solid #dad7d7;
+  border-top: 1px solid #dad7d7;
+}
+
+#shopDesc-info-review .shopInfo .infoCart {
+  padding: 3% 0;
+}
+
+#shopDesc-info-review .shopReview {
+  border-bottom: 1px solid #dad7d7;
+  border-top: 1px solid #dad7d7;
+}
+
+#shopDesc-info-review .shopReview button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 141px;
+  height: 50px;
+  background-color: #ec5555;
+  color: white;
+  border: solid #ec5555 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shopDesc-info-review .shopReview button:hover {
+  background-color: red;
+}
+
+#shopRelatedProducts {
+  padding: 4% 0;
+}
+
+#shopRelatedProducts h3 {
+  font-size: 14px;
+  color: black;
+}
+
+#shopRelatedProducts .products .product {
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#shopRelatedProducts .products .product:hover .text {
+  opacity: 1;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shopRelatedProducts .products .product:hover .price {
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shopRelatedProducts .products .product .text {
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shopRelatedProducts .products .product .image {
+  overflow: hidden;
+  position: relative;
+}
+
+#shopRelatedProducts .products .product .image .sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 29px;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  z-index: 10;
+}
+
+#shopRelatedProducts .products .product .image .sale span {
+  color: black;
+}
+
+#shopRelatedProducts .products .product .image .sold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 29px;
+  background-color: black;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-align: center;
+  z-index: 10;
+}
+
+#shopRelatedProducts .products .product .image .sold span {
+  color: white;
+}
+
+#shopRelatedProducts .products .product .image:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#shopRelatedProducts .products .product .image img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 295px;
+  height: 380px;
+}
+
+#shopRelatedProducts .products .product .productName {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+#shopRelatedProducts .products .product .productPrice {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+  color: grey;
+}
+
+#shopRelatedProducts .products .product .productPrice .price {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  right: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav .logo-links-cart .nav-links {
+    display: none;
+  }
+  header nav .logo-links-cart .search-cart {
+    display: none !important;
+  }
+  header nav .menu-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footer .topFooter {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer .topFooter ul {
+    width: 34%;
+  }
+  footer .footer .bottomFooter {
+    text-align: center;
+    display: block !important;
+  }
+  footer .footer .bottomFooter .rights {
+    font-size: 10px;
+  }
+  footer .footer .bottomFooter .payments .footerImage img {
+    width: 100px;
+  }
+  footer .footer .bottomFooter .socialMedia a {
+    font-size: 11px;
+  }
+  #shopRelatedProducts .row .products {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+  }
+  #shopRelatedProducts .row .products .product .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #shopDesc-info-review {
+    padding: 0;
+  }
+  #shopDesc-info-review .shopTitle .myCart {
+    border-left: 1px solid #dad7d7;
+  }
+  #shopOrangeAmaryllis .shopAmeryllisImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #shopOrangeAmaryllis .shopAmeryllisImages .smallImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 35px;
+  }
+  #shopOrangeAmaryllis .shopAmeryllisImages .bigImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #shopOrangeAmaryllis .shopAmeryllisImages .bigImage img {
+    width: 100%;
+    height: 800px;
+  }
+  #flowers3 .flowersInfo {
+    overflow: hidden;
+  }
+  #flowers3 .flowersInfo .Infos .titleInfo span {
+    font-size: 33px !important;
+  }
+  #flowers3 .flowersInfo .Infos .descInfo {
+    width: 250px;
+    overflow: hidden;
+  }
+  #flowers3 .signatureInfo img {
+    width: 180px !important;
+  }
+  #video .video-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #video .video-article .article {
+    padding-left: 30px;
+  }
+  #flowerExpert .info-experts .experts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #myParallax .parallaxClass .parallaxText h2 {
+    font-size: 20px !important;
+  }
+  #myParallax .parallaxClass .registration {
+    width: 370px;
+  }
+  #blog .blogImages {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #blog .blogImages .blogImage .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #blog .blogImages .blogImage .image .date {
+    margin-right: 300px;
+  }
+  #productList .title-filter .productTitle {
+    width: 100%;
+  }
+  #productList .title-filter .productTitle #productListCategory {
+    display: none !important;
+  }
+  #productList .title-filter .productTitle .flowerTypes {
+    width: 100%;
+  }
+  #productList .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  footer .footer .topFooter {
+    display: block !important;
+  }
+  footer .footer .bottomFooter {
+    text-align: center;
+    display: block !important;
+  }
+  footer .footer .bottomFooter .rights {
+    font-size: 8px;
+  }
+  footer .footer .bottomFooter .payments .footerImage img {
+    width: 100px;
+  }
+  footer .footer .bottomFooter .socialMedia a {
+    font-size: 10px;
+  }
+  #shopproductNameLis h1 {
+    font-size: 35px;
+  }
+  #shopproductNameLis p {
+    font-size: 15px;
+  }
+  #shopOrangeAmaryllis .row {
+    display: block !important;
+  }
+  #shopOrangeAmaryllis .row .shopAmeryllisImages {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  #shopOrangeAmaryllis .row .shopAmeryllisImages .bigImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 14px;
+  }
+  #shopOrangeAmaryllis .row .shopAmeryllisImages .bigImage img {
+    width: 290px;
+    height: 350px;
+  }
+  #shopOrangeAmaryllis .row .shopAmeryllisImages .smallImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #shopOrangeAmaryllis .row .shopAmeryllisInfo {
+    width: 100% !important;
+    left: 0% !important;
+    margin-bottom: 25px;
+  }
+  #shopOrangeAmaryllis .row .shopAmeryllisInfo .title h2 {
+    font-size: 30px !important;
+  }
+  #shopRelatedProducts .row .products {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #flowers3 .imagesSlide .imgScale img {
+    width: 100%;
+  }
+  #flowers3 .flowersInfo {
+    width: 220px !important;
+  }
+  #flowers3 .flowersInfo .Infos .descInfo {
+    display: none !important;
+  }
+  #flowers3 .flowersInfo .Infos .titleInfo span {
+    font-size: 20px !important;
+  }
+  #productList .title-filter .productTitle {
+    width: 100%;
+  }
+  #productList .title-filter .productTitle #productListCategory {
+    display: block !important;
+  }
+  #productList .title-filter .productTitle #dropDownCategory .flowerTypes {
+    display: block !important;
+    width: 100%;
+  }
+  #productList .title-filter .productTitle .flowerTypes {
+    display: none !important;
+  }
+  #productList .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #video .video-article .videoImg .icon i {
+    font-size: 50px;
+  }
+  #video .video-article .videoImg img {
+    width: 300px !important;
+    height: 194px !important;
+  }
+  #video .video-article .article .title {
+    margin-top: 20px;
+  }
+  #video .video-article .article .title h5 {
+    font-size: 25px !important;
+    text-align: justify;
+  }
+  #video .video-article .article .desc {
+    text-align: center;
+  }
+  #flowerExpert .info-experts .experts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #myParallax .parallaxClass .registration {
+    width: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #myParallax .parallaxClass .registration input {
+    width: 290px;
+  }
+  #myParallax .parallaxClass .registration button {
+    width: 150px;
+  }
+  #blog .blogImages .blogImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #blog .blogImages .blogImage .image {
+    width: 300px;
+    height: 191px;
+  }
+  #blog .blogImages .blogImage .image .date {
+    position: absolute;
+    left: 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
